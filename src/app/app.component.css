@@ -99,6 +99,7 @@ body {
   }
   .navbar li a, .navbar .navbar-brand { 
       color: #d5d5d5 !important;
+      font-weight: bold;
   }
   .navbar-nav li a:hover {
       color: #fff !important;
