@@ -1,5 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {GalleriaModule} from 'primeng/galleria';
+import {GMapModule} from 'primeng/gmap';
+import {OverlayPanelModule} from 'primeng/overlaypanel';
+import {CardModule} from 'primeng/card';
 
 
 import { AppComponent } from './app.component';
@@ -10,7 +15,12 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    GalleriaModule,
+    GMapModule,
+    OverlayPanelModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
